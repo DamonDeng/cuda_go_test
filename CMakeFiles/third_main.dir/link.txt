@@ -1,0 +1,1 @@
+/usr/bin/g++   CMakeFiles/third_main.dir/third_main.cu.o CMakeFiles/third_main.dir/cmake_device_link.o -o third_main  -L"/usr/local/cuda/lib64/stubs" -L"/usr/local/cuda/lib64" -lcudadevrt -lcudart_static -lrt -lpthread -ldl

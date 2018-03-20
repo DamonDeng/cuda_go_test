@@ -1,0 +1,1 @@
+/usr/bin/g++   CMakeFiles/go_main.dir/go_main.cu.o CMakeFiles/go_main.dir/cmake_device_link.o -o go_main  -L"/usr/local/cuda/lib64/stubs" -L"/usr/local/cuda/lib64" -lcudadevrt -lcudart_static -lrt -lpthread -ldl
