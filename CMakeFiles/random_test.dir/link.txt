@@ -1,0 +1,1 @@
+/usr/bin/g++   CMakeFiles/random_test.dir/random_test.cu.o CMakeFiles/random_test.dir/cmake_device_link.o -o random_test  -L"/usr/local/cuda/lib64/stubs" -L"/usr/local/cuda/lib64" -lcudadevrt -lcudart_static -lrt -lpthread -ldl

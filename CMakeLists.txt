@@ -13,5 +13,9 @@ if(BUILD_TESTING)
 
   set_target_properties(go_main PROPERTIES CUDA_SEPARABLE_COMPILATION ON)
 
+  add_executable(random_test random_test.cu)
+
+  set_target_properties(random_test PROPERTIES CUDA_SEPARABLE_COMPILATION ON)
+
 
 endif()

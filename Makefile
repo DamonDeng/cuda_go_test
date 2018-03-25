@@ -122,6 +122,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named random_test
+
+# Build rule for target.
+random_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 random_test
+.PHONY : random_test
+
+# fast build rule for target.
+random_test/fast:
+	$(MAKE) -f CMakeFiles/random_test.dir/build.make CMakeFiles/random_test.dir/build
+.PHONY : random_test/fast
+
+#=============================================================================
 # Target rules for targets named first_main
 
 # Build rule for target.
@@ -565,6 +578,33 @@ go_main.cu.s:
 	$(MAKE) -f CMakeFiles/go_main.dir/build.make CMakeFiles/go_main.dir/go_main.cu.s
 .PHONY : go_main.cu.s
 
+random_test.o: random_test.cu.o
+
+.PHONY : random_test.o
+
+# target to build an object file
+random_test.cu.o:
+	$(MAKE) -f CMakeFiles/random_test.dir/build.make CMakeFiles/random_test.dir/random_test.cu.o
+.PHONY : random_test.cu.o
+
+random_test.i: random_test.cu.i
+
+.PHONY : random_test.i
+
+# target to preprocess a source file
+random_test.cu.i:
+	$(MAKE) -f CMakeFiles/random_test.dir/build.make CMakeFiles/random_test.dir/random_test.cu.i
+.PHONY : random_test.cu.i
+
+random_test.s: random_test.cu.s
+
+.PHONY : random_test.s
+
+# target to generate assembly for a file
+random_test.cu.s:
+	$(MAKE) -f CMakeFiles/random_test.dir/build.make CMakeFiles/random_test.dir/random_test.cu.s
+.PHONY : random_test.cu.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -573,6 +613,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... random_test"
 	@echo "... first_main"
 	@echo "... ContinuousSubmit"
 	@echo "... ContinuousCoverage"
@@ -610,6 +651,9 @@ help:
 	@echo "... go_main.o"
 	@echo "... go_main.i"
 	@echo "... go_main.s"
+	@echo "... random_test.o"
+	@echo "... random_test.i"
+	@echo "... random_test.s"
 .PHONY : help
 
 

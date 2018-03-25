@@ -1,5 +1,6 @@
 /home/ubuntu/workspace/cudatest/CMakeFiles/rebuild_cache.dir
 /home/ubuntu/workspace/cudatest/CMakeFiles/edit_cache.dir
+/home/ubuntu/workspace/cudatest/CMakeFiles/random_test.dir
 /home/ubuntu/workspace/cudatest/CMakeFiles/first_main.dir
 /home/ubuntu/workspace/cudatest/CMakeFiles/ContinuousSubmit.dir
 /home/ubuntu/workspace/cudatest/CMakeFiles/ContinuousCoverage.dir

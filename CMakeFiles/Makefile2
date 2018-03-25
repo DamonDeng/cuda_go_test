@@ -60,6 +60,43 @@ CMAKE_SOURCE_DIR = /home/ubuntu/workspace/cudatest
 CMAKE_BINARY_DIR = /home/ubuntu/workspace/cudatest
 
 #=============================================================================
+# Target rules for target CMakeFiles/random_test.dir
+
+# All Build rule for target.
+CMakeFiles/random_test.dir/all:
+	$(MAKE) -f CMakeFiles/random_test.dir/build.make CMakeFiles/random_test.dir/depend
+	$(MAKE) -f CMakeFiles/random_test.dir/build.make CMakeFiles/random_test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/workspace/cudatest/CMakeFiles --progress-num=7,8,9 "Built target random_test"
+.PHONY : CMakeFiles/random_test.dir/all
+
+# Include target in all.
+all: CMakeFiles/random_test.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/random_test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/workspace/cudatest/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/random_test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/workspace/cudatest/CMakeFiles 0
+.PHONY : CMakeFiles/random_test.dir/rule
+
+# Convenience name for target.
+random_test: CMakeFiles/random_test.dir/rule
+
+.PHONY : random_test
+
+# clean rule for target.
+CMakeFiles/random_test.dir/clean:
+	$(MAKE) -f CMakeFiles/random_test.dir/build.make CMakeFiles/random_test.dir/clean
+.PHONY : CMakeFiles/random_test.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/random_test.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/first_main.dir
 
 # All Build rule for target.
